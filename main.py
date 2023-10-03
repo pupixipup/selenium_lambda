@@ -5,7 +5,7 @@ import subprocess
 
 
 def handler(event=None, context=None):
-    print("Hello World!")
+    print("Hello World! v2")
     subprocess.Popen('python --version', shell=True)
     options = webdriver.ChromeOptions()
     service = webdriver.ChromeService("/opt/chromedriver")
